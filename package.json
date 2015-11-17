@@ -1,0 +1,52 @@
+{
+  "name": "autocomplete-love",
+  "description": "Auto-complete and snippets for LÖVE.",
+  "author": "Varun Ramesh <varunramesh@live.com>",
+  "license": "MIT",
+  "version": "0.0.0",
+  "main": "./lib/main",
+  "repository": "https://github.com/rameshvarun/autocomplete-love",
+  "engines": {
+    "atom": "^1.0.9"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getAutoCompleteProvider"
+      }
+    }
+  },
+  "package-dependencies": [
+    [
+      "tool-bar",
+      "0.1.8"
+    ],
+    [
+      "language-lua",
+      "0.9.4"
+    ],
+    [
+      "linter",
+      "1.5.0"
+    ],
+    [
+      "linter-luaparse",
+      "0.2.0"
+    ],
+    [
+      "hyperclick",
+      "0.0.32"
+    ],
+    [
+      "language-glsl",
+      "2.0.1"
+    ],
+    [
+      "autocomplete-glsl",
+      "0.2.3"
+    ]
+  ],
+  "dependencies": {
+    "fuzzaldrin": "^2.1.0"
+  }
+}
