@@ -3,7 +3,7 @@
   "description": "Auto-complete and snippets for LÖVE.",
   "author": "Varun Ramesh <varunramesh@live.com>",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "./lib/main",
   "repository": "https://github.com/rameshvarun/autocomplete-love",
   "engines": {
