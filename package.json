@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "fuzzaldrin": "^2.1.0",
-    "love-ide-data": "git+https://github.com/rameshvarun/love-ide-data.git#6010599ad2e967a16395c246fdd38da4d23ebf18"
+    "love-ide-data": "https://github.com/rameshvarun/love-ide-data/archive/v0.1.0.tar.gz"
   }
 }
